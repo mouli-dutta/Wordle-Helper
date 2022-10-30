@@ -138,7 +138,7 @@ interface Dictionary {
 
         try(var dictIs = new URL(
                 // dictionary url
-                "https://www.mit.edu/~ecprice/wordlist.10000").openStream()) {
+                 "https://raw.githubusercontent.com/seanpatlan/wordle-words/main/valid-words.csv").openStream()) {
 
             return
                     Pattern.compile("\n")
