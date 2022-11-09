@@ -1,4 +1,4 @@
-package sololearn;
+package wordle;
 
 import java.net.*;
 import java.util.*;
